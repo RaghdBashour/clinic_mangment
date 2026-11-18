@@ -1,0 +1,126 @@
+{
+  "@@locale": "en",
+  "appName": "Clinic Manager",
+  "navToday": "Today",
+  "navPatients": "Patients",
+  "navCalendar": "Calendar",
+  "navBilling": "Billing",
+  "navMore": "More",
+  "actionContinue": "Continue",
+  "actionBack": "Back",
+  "actionSkip": "Skip",
+  "actionSave": "Save",
+  "actionDone": "Done",
+  "actionCancel": "Cancel",
+  "actionRetry": "Retry",
+  "actionAdd": "Add",
+  "actionClose": "Close",
+  "onboardingWelcomeTitle": "Your clinic, in your pocket",
+  "onboardingWelcomeBody": "Patients, appointments, visits and payments — all stored on this device.",
+  "onboardingClinicTitle": "Clinic details",
+  "onboardingClinicSubtitle": "These details appear on prescriptions and receipts.",
+  "onboardingClinicName": "Clinic name",
+  "onboardingDoctorName": "Doctor name",
+  "onboardingSpecialty": "Specialty",
+  "onboardingPhone": "Phone",
+  "onboardingCurrency": "Currency",
+  "onboardingSlotDuration": "Appointment length",
+  "onboardingMinutes": "{minutes} minutes",
+  "@onboardingMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingSecurityTitle": "Protect patient data",
+  "onboardingSecurityBody": "Add a PIN and enable fingerprint or face unlock. You can change this later in Settings.",
+  "onboardingPin": "PIN",
+  "onboardingPinConfirm": "Confirm PIN",
+  "onboardingPinHint": "4 to 6 digits",
+  "onboardingPinOptional": "Optional — you can add a PIN later in Settings.",
+  "onboardingEnableBiometrics": "Enable fingerprint / face unlock",
+  "onboardingFinish": "Start using Clinic Manager",
+  "validationRequired": "Required",
+  "validationPinTooShort": "Use at least 4 digits",
+  "validationPinMismatch": "PINs do not match",
+  "validationPinDigitsOnly": "Digits only",
+  "dashboardGreeting": "Welcome, {name}",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardQuietTitle": "A quiet day",
+  "dashboardQuietBody": "Today's appointments and follow-ups will appear here.",
+  "dashboardAppointmentsToday": "Appointments today",
+  "dashboardSeenToday": "Patients seen",
+  "dashboardRevenueToday": "Collected today",
+  "dashboardOutstanding": "Outstanding",
+  "dashboardNoAppointments": "No appointments scheduled today",
+  "dashboardOpenPatients": "Open patient files",
+  "patientsEmptyTitle": "No patients yet",
+  "patientsEmptyBody": "Patient files will appear here with their complete history.",
+  "calendarEmptyTitle": "Nothing scheduled",
+  "calendarEmptyBody": "Your day and week views will show every appointment.",
+  "billingEmptyTitle": "No invoices yet",
+  "billingEmptyBody": "Invoices, payments and outstanding balances will live here.",
+  "settingsTitle": "Settings",
+  "settingsClinicProfile": "Clinic profile",
+  "settingsLanguageAppearance": "Language & appearance",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "settingsSecurity": "Security",
+  "settingsNotifications": "Notifications",
+  "settingsBackup": "Backup & restore",
+  "settingsAbout": "About",
+  "settingsLockNow": "Lock the app now",
+  "settingsRequireLock": "Require PIN on open",
+  "settingsBiometrics": "Fingerprint / face unlock",
+  "settingsPinSet": "PIN is set",
+  "settingsPinNotSet": "No PIN set",
+  "settingsSetPin": "Set a PIN",
+  "settingsChangePin": "Change PIN",
+  "settingsRemovePin": "Remove PIN",
+  "currentPin": "Current PIN",
+  "newPin": "New PIN",
+  "pinSaved": "PIN saved",
+  "pinRemoved": "PIN removed",
+  "biometricsUnavailable": "Biometrics are not available on this device",
+  "settingsDataLocal": "Your data stays on this device only",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsComingSoon": "Coming in a later milestone",
+  "languageSystem": "System",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "lockTitle": "Welcome back",
+  "lockSubtitle": "Enter your PIN to open Clinic Manager",
+  "lockUseBiometrics": "Use fingerprint / face",
+  "lockUnlock": "Unlock",
+  "lockWrongPin": "Wrong PIN, try again",
+  "lockAttemptsLeft": "Attempts left: {count}",
+  "@lockAttemptsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lockTooManyAttempts": "Too many attempts. Try again in a minute.",
+  "clinicProfileSaved": "Clinic profile saved",
+  "dbInitError": "Could not open the local database. Restore a backup or reinstall the app.",
+  "genericError": "Something went wrong",
+  "unknownError": "Unexpected error"
+}
